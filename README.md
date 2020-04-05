@@ -17,7 +17,8 @@ For this project, I was interestested in using Stack Overflow survey data from 2
 
 1. Business Understanding
 
-I wanted to better understand and investigate the following questions:\n
+I wanted to better understand and investigate the following questions:
+
 a. What languages were most popular in each year?
 
 2. Data Understanding
