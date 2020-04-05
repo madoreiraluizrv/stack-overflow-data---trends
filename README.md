@@ -46,9 +46,13 @@ The deployment process was to create this github repository and then the medium 
 
 There are x notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.
 
+1. LanguageRanking.ipynb
+Notebook that solve question 'a' and shows a final graph with the ranking evolution of each language between 2017 and 2019.
+
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here]().
+The main findings of the code can be found at the post available [here](), but here is a summary:
+a. The three most used languages continued to be Java, Javascript and C, but C came ahead of the other two since 2018, and Objective C dropped many positions since 2017 (Swift becoming the go-to language on iOS development could be the reason, even though Swift ranking also decreased during the same time).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
