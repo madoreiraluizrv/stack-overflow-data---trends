@@ -31,6 +31,7 @@ In the process of understand the data, I also analyzed (just checking the CSV on
 3. Prepare Data
 
 From working with missing data to finding a way to work with categorical variables, passing by detailing multiple choice questions, I used many different processes to clean the data before using in the models and visualizations.
+Specifically on the coefficients notebook, I had to implement a timeout exception in one of the functions, because some multiple choice answers were stalling the function. So, I ignored some of them based on the time taken to add dummies for them.
 
 4. Model Data
 
