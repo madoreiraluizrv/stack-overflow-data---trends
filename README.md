@@ -54,6 +54,8 @@ Notebook that solve question 'a' and shows a final graph with the ranking evolut
 2. Coefficients.ipynb
 Notebook that solve question 'b' and shows three graphs for the top 20 coefficients in the models for each of the years.
 
+I also included the 3 datasets used (survey_results_public_yyyy.csv), but they are zipped as they were larger than GitHub's limit if not zipped.
+
 ## Results<a name="results"></a>
 
 The main findings of the code can be found at the post available [here](), but here is a summary:
