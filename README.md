@@ -20,7 +20,10 @@ For this project, I was interestested in using Stack Overflow survey data from 2
 I wanted to better understand and investigate the following questions:
 
 a. What languages were most popular in each year?
-b. Did the most important variables to predict salaries changed:
+
+b. What platforms were the most desired in each year?
+
+c. Did the most important variables to predict salaries changed?
 
 2. Data Understanding
 
@@ -35,8 +38,8 @@ Specifically on the coefficients notebook, I had to implement a timeout exceptio
 
 4. Model Data
 
-For question 1, there was no need for machine learning, but I had to build a new dataframe with only language usage information and then model it to show me the ranking of each language in each year.
-For question 2, I used the LinearRegression model of sklearn, after cleaning the data for each of the years.
+For questions 1 and 2, there was no need for machine learning, but I had to build a new dataframe with only language or platform information and then model it to show me the ranking of each language or platform in each year.
+For question 3, I used the LinearRegression model of sklearn, after cleaning the data for each of the years.
 
 5. Results
 
@@ -48,12 +51,16 @@ The deployment process was to create this github repository and then the medium 
 
 ## File Descriptions <a name="files"></a>
 
-There are x notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.
+There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.
 
-1. LanguageRanking.ipynb
+1. LanguageRankings.ipynb
 Notebook that solve question 'a' and shows a final graph with the ranking evolution of each language between 2017 and 2019.
-2. Coefficients.ipynb
-Notebook that solve question 'b' and shows three graphs for the top 20 coefficients in the models for each of the years.
+
+2. PlatformDesireRankings.ipynb
+Notebook that solve question 'b' and shows a final graph with the ranking evolution of each platform between 2017 and 2019.
+
+3. Coefficients.ipynb
+Notebook that solve question 'c' and shows three graphs for the top 20 coefficients in the models for each of the years.
 
 I also included the 3 datasets used (survey_results_public_yyyy.csv), but they are zipped as they were larger than GitHub's limit if not zipped.
 
@@ -63,7 +70,9 @@ The main findings of the code can be found at the post available [here](), but h
 
 a. The three most used languages continued to be Java, Javascript and C, but C came ahead of the other two since 2018, and Objective C dropped many positions since 2017 (Swift becoming the go-to language on iOS development could be the reason, even though Swift ranking also decreased during the same time).
 
-b. Where an individual lives continued to be of the greatest indicators of salary throughout the years. Years of experience is also a really relevant variable on all three survey years, but it is interesting to note that is not linear: we can't say that the longer an individual has been programming the more they are likely to earn. We finished not getting a relevant difference on the top coefficients for the different survey years.
+b. Linux, Windows, AWS and Android were always at the top of the rankings throughout the years (the only "intruder" was Docker in 2019), but Linux came ahead of the other ones since 2018, while Android dropped from first in 2017 to fourth in 2019. Windows is steadily going up on the ranking, so maybe on the next survey, it will be the number one.
+
+c. Where an individual lives continued to be of the greatest indicators of salary throughout the years. Years of experience is also a really relevant variable on all three survey years, but it is interesting to note that is not linear: we can't say that the longer an individual has been programming the more they are likely to earn. We finished not getting a relevant difference on the top coefficients for the different survey years.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
