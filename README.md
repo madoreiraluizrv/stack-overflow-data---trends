@@ -34,11 +34,13 @@ In the process of understand the data, I also analyzed (just checking the CSV on
 3. Prepare Data
 
 From working with missing data to finding a way to work with categorical variables, passing by detailing multiple choice questions, I used many different processes to clean the data before using in the models and visualizations.
+
 Specifically on the coefficients notebook, I had to implement a timeout exception in one of the functions, because some multiple choice answers were stalling the function. So, I ignored some of them based on the time taken to add dummies for them.
 
 4. Model Data
 
 For questions 1 and 2, there was no need for machine learning, but I had to build a new dataframe with only language or platform information and then model it to show me the ranking of each language or platform in each year.
+
 For question 3, I used the LinearRegression model of sklearn, after cleaning the data for each of the years.
 
 5. Results
@@ -53,14 +55,11 @@ The deployment process was to create this github repository and then the medium 
 
 There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.
 
-1. LanguageRankings.ipynb
-Notebook that solve question 'a' and shows a final graph with the ranking evolution of each language between 2017 and 2019.
+1. LanguageRankings.ipynb: Notebook that solve question 'a' and shows a final graph with the ranking evolution of each language between 2017 and 2019.
 
-2. PlatformDesireRankings.ipynb
-Notebook that solve question 'b' and shows a final graph with the ranking evolution of each platform between 2017 and 2019.
+2. PlatformDesireRankings.ipynb: Notebook that solve question 'b' and shows a final graph with the ranking evolution of each platform between 2017 and 2019.
 
-3. Coefficients.ipynb
-Notebook that solve question 'c' and shows three graphs for the top 20 coefficients in the models for each of the years.
+3. Coefficients.ipynb: Notebook that solve question 'c' and shows three graphs for the top 20 coefficients in the models for each of the years.
 
 I also included the 3 datasets used (survey_results_public_yyyy.csv), but they are zipped as they were larger than GitHub's limit if not zipped.
 
