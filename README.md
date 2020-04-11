@@ -71,7 +71,7 @@ a. The three most used languages continued to be Java, Javascript and C, but C c
 
 b. Linux, Windows, AWS and Android were always at the top of the rankings throughout the years (the only "intruder" was Docker in 2019), but Linux came ahead of the other ones since 2018, while Android dropped from first in 2017 to fourth in 2019. Windows is steadily going up on the ranking, so maybe on the next survey, it will be the number one.
 
-c. Where an individual lives continued to be of the greatest indicators of salary throughout the years. Years of experience is also a really relevant variable on all three survey years, but it is interesting to note that is not linear: we can't say that the longer an individual has been programming the more they are likely to earn. Some different variables appeared as top indicators in different years.
+c. Where an individual lives continued to be of the greatest indicators of salary throughout the years. But some different variables appeared as top indicators in different years: in the earlier years (2017 and 2018) years of experience were important, and in the later years (2018 and 2019) different techs used were relevant.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
