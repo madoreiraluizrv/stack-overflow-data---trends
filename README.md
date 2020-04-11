@@ -65,7 +65,7 @@ I also included the 3 datasets used (survey_results_public_yyyy.csv), but they a
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](), but here is a summary:
+The main findings of the code can be found at the post available [here](https://medium.com/@madoreiraluizrv30/what-were-the-programming-trends-of-the-last-years-8c60d9225772), but here is a summary:
 
 a. The three most used languages continued to be Java, Javascript and C, but C came ahead of the other two since 2018, and Objective C dropped many positions since 2017 (Swift becoming the go-to language on iOS development could be the reason, even though Swift ranking also decreased during the same time).
 
@@ -75,5 +75,9 @@ c. Where an individual lives continued to be of the greatest indicators of salar
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
+I have used a snippet of code found [here](https://stackoverflow.com/questions/366682/how-to-limit-execution-time-of-a-function-call-in-python) for the timeout exception function.
+
 Must give credit to Stack Overflow for the data.  You can find more information at the link available [here](https://insights.stackoverflow.com/survey).  Otherwise, feel free to use the code here as you would like! And you have any feedback, please share
+
+
 
